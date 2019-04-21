@@ -26,7 +26,7 @@ namespace SQLite.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=C:\\Users\\Moritz\\Desktop\\Test.db;Version=3;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=|Database|\\Test.db;Version=3;")]
         public string connString {
             get {
                 return ((string)(this["connString"]));
