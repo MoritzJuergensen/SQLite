@@ -135,7 +135,6 @@ namespace SQLite.ViewModels
 
         void FetchData()
         {
-            MessageBox.Show(Properties.Settings.Default.connString);
             using (SQLiteConnection connection = new SQLiteConnection(Properties.Settings.Default.connString))
                 connection.Open();
                 SQLiteCommand cmd = new SQLiteCommand("SELECT ID_Mitarbeiter, FirstName, LastName, ID_Team FROM Mitarbeiter", connection);
