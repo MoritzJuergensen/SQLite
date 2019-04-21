@@ -1,0 +1,56 @@
+﻿            //for (int i = 0; i < OC_Team.Count; i++)
+            //{
+            //    Console.WriteLine(string.Concat(OC_Team[i].Name, "---", OC_Team[i].Name));
+            //}
+
+			        //void NewRow()
+        //{
+        //    OC_Mitarbeiter.Add(new Mitarbeiter(99999, "?", "?", 1));
+        //}
+
+		        //void OnCollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
+        //{
+        //    if (e.OldItems != null)
+        //    {
+        //        foreach (INotifyPropertyChanged item in e.OldItems)
+        //            item.PropertyChanged -= item_PropertyChanged;
+        //    }
+        //    if (e.NewItems != null)
+        //    {
+        //        foreach (INotifyPropertyChanged item in e.NewItems)
+        //            item.PropertyChanged += item_PropertyChanged;
+        //    }
+        //}
+
+        //static void item_PropertyChanged(object sender, PropertyChangedEventArgs e)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+		               //for (int i = 0; i < OC_Mitarbeiter.Count; i++)
+                //{
+                //    Console.WriteLine(string.Concat(OC_Mitarbeiter[i].ID_Mitarbeiter, "---", OC_Mitarbeiter[i].ID_Mitarbeiter));
+                //}
+
+				        //public void MyAction3()
+        //{
+        //    try
+        //    {
+        //        using (SQLiteConnection connection = new SQLiteConnection(Properties.Settings.Default.connString))
+        //        {
+        //            connection.Open();
+        //            SQLiteCommand cmd = new SQLiteCommand("DELETE FROM Mitarbeiter WHERE ID_Mitarbeiter= '" + MySelectedMitarbeiter.ID_Mitarbeiter + "'", connection);
+        //            cmd.ExecuteNonQuery();
+        //        }
+        //    }
+        //    catch (Exception exception)
+        //    {
+        //        Console.WriteLine(exception);
+        //    }
+        //    OC_Mitarbeiter.Remove(OC_Mitarbeiter.Where(i => i.ID_Mitarbeiter == MySelectedMitarbeiter.ID_Mitarbeiter).Single());
+        //}
+
+		            //OC_Mitarbeiter.CollectionChanged += OnCollectionChanged;
+            //OC_Team.CollectionChanged += OnCollectionChanged;
+
+			    //public class MyObject {}
